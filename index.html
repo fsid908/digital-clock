@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&family=Poppins&family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+            <div class="IND">India</div>
+
+        <div class="date-time">
+            <span id="DT"></span>
+        </div>
+        <div class="icons">
+            <button id="theme-toggle">
+            <img id="theme-icon" src="https://www.svgrepo.com/show/354092/moon.svg">
+            </button>
+        </div>
+        
+
+        <div class="input">
+
+            <div class="time-box">
+            <input type="text" placeholder="00" readonly id="hour">
+            <div class="time">Hours</div>
+            </div>
+
+            <span class="colon">:</span>
+
+            <div class="time-box">
+            <input type="text" placeholder="00" readonly id="min">
+            <div class="time">Minutes</div>
+            </div>
+
+            <span class="colon">:</span>
+            <div class="time-box">
+            <input type="text" placeholder="00" readonly id="sec">
+                <div class="time">Seconds</div>
+            </div>
+    </div>
+    <span id="am-pm">AMPM</span>
+    <div class="world-clock">
+
+        <div class="card">
+            <p>London</p>
+             <span id="london"></span>
+             
+        </div>
+       
+        <div class="card">
+             <p>Tokyo</p>
+            <span id="tokyo"></span>
+        </div>
+
+        <div class="card">
+            <p>New York</p>
+            <span id="newyork"></span>
+            
+        </div>
+
+        <div class="card">
+            <p>Dubai</p>
+            <span id="dubai"></span>
+            
+        </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
