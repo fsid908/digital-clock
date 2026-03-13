@@ -17,8 +17,8 @@ The UI is designed with a **dashboard-style layout**, digital typography, animat
 # Preview
 
 <p align="center">
-<img src="screenshot/preview.png">
-<img src="screenshot/preview1.png">
+<img src="screenshot/preview.png" width="45%">
+<img src="screenshot/preview1.png" width="45%">
 </p>
 
 ---
