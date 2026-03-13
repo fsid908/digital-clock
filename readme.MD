@@ -69,13 +69,12 @@ toLocaleTimeString("en-US", { timeZone: "Asia/Kolkata" })
 ```
 digital-clock
 │
+├── screenshot
+│   ├── preview.png
+│   └── preview1.png
 ├── index.html
 ├── style.css
-├── script.js
-├── assets
-│   ├── moon.svg
-│   └── sun.svg
-└── preview.png
+└── script.js
 ```
 
 ---
@@ -125,7 +124,7 @@ You can also use **VS Code Live Server** for a better development experience.
 ---
 
 
-# Contributing
+## Contributing
 
 Contributions are welcome.
 
@@ -138,7 +137,7 @@ If you'd like to improve the project:
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 Possible upgrades:
 
@@ -151,7 +150,7 @@ Possible upgrades:
 
 ---
 
-# Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 
@@ -163,12 +162,19 @@ This project demonstrates:
 
 ---
 
-# Support
+## Support
 
 If you found this project helpful, consider giving it a **star ⭐ on GitHub**.
 
 ---
 
-# License
+## License
 
 This project is licensed under the **MIT License**.
+
+---
+## Author
+**Farhan Siddiqui** </br>
+Git Hub : https://github.com/fsid908 </br>
+LinkedIn : https://www.linkedin.com/in/farhan-siddiqui-dev </br>
+Email : fsid738@gmail.com
